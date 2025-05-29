@@ -17,16 +17,19 @@ const SeoOptimization = () => {
 
     
       {/* About Start */}
-      <div className="container-fluid bg-secondary p-0">
-        <div className="row g-0">
-          <div className="col-lg-6 py-6 px-5 ">
+       <div className="container-fluid bg-secondary p-0">
+      <div className="row g-0">
+        {/* Text Content */}
+        <div className="col-lg-6 d-flex align-items-center p-5">
+          <div>
             <h1 className="display-5 mb-4">
-              Welcome To <span style={{ color: "rgb(73, 153, 227)" }}>MP Tecc</span>
+              Welcome To{" "}
+              <span style={{ color: "rgb(73, 153, 227)" }}>MP Tecc</span>
             </h1>
             <h4 style={{ color: "rgb(73, 153, 227)" }} className="mb-4">
               SEO Optimization Services
             </h4>
-            <p className="mb-4">
+            <p className="mb-4 text-black">
               Your trusted partner in unlocking the full potential of your
               website through expert SEO optimization. Our comprehensive
               services are designed to improve your online visibility, drive
@@ -34,16 +37,19 @@ const SeoOptimization = () => {
               your business succeed in the digital world.
             </p>
           </div>
-          <div className="col-lg-6 py-6 px-5 ">
-            <div className="row">
-              <img
-                src={seo1}
-                alt=""
-              />
-            </div>
-          </div>
+        </div>
+
+        {/* Image Section */}
+        <div className="col-lg-6 d-flex align-items-center p-0">
+          <img
+            src={seo1}
+            alt="SEO Service"
+            className="img-fluid me-3 mt-3 ms-5"
+            style={{ objectFit: "cover",height:"450px" , maxHeight: "600px" }}
+          />
         </div>
       </div>
+    </div>
       {/* About End */}
       {/* service-slider-start */}
       <div className="container py-4">
