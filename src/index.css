@@ -1,0 +1,67 @@
+/* TestimonialSlide.css */
+
+.testimonial-slide {
+  background-color: #10172A; /* Dark blue background color */
+  color: #ffffff; /* White text color */
+  border: 2px dotted #ffffff; /* White dotted border */
+  border-radius: 5px; /* Rounded corners */
+  text-align: center;
+  height: 370px !important;
+}
+
+.testimonial-slide p,
+.testimonial-slide h4 {
+  color: #ffffff; /* White text color */
+}
+
+.testimonial-slide h4 {
+  font-weight: bold;
+}
+.brand-card{
+  background-color: #e5f1fb;
+  border: 2px dotted #10172A; /* White dotted border */
+  justify-content: space-between;
+  min-height: 390px !important;
+}
+
+
+.consultancyimg img{
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+
+
+
+/* paypal section */
+
+.paypal-btn, .card-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paypal-btn {
+  background-color: #ffc439; /* PayPal yellow background */
+  color: #00457C; /* PayPal text color */
+}
+
+.card-btn {
+  background-color: #ffc439; /* Same PayPal yellow background */
+  color: #00457C; /* Same PayPal text color */
+}
+
+.powered-by {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #00457C; /* PayPal text color */
+  margin-top: 10px;
+}

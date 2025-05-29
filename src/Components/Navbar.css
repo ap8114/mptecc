@@ -1,0 +1,12 @@
+/* Custom hover effect for navigation links */
+.custom-hover:hover {
+    color: #00008b !important; /* Dark blue color */
+    text-decoration: none; /* Remove underline */
+  }
+
+.bg-purpledark{
+  background-color: #4B0082;;
+}
+
+
+  
