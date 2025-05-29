@@ -1,21 +1,24 @@
+.hero-image {
+  display: block;
+  margin: 0 auto;               /* Center the image horizontally */
+  max-width: 100%;              /* Responsive */
+  height: auto;                 /* Maintain aspect ratio */
+  transition: transform 0.5s ease;
+  animation: moveImage 10s ease-in-out infinite;
+}
+
 @keyframes moveImage {
-    0% {
-      transform: translateY(-30px); 
-    }
-    50% {
-      transform: translateX(-30px); 
-    }
-    100% {
-      transform: translateX(-30px); 
-    }
+  0% {
+    transform: translateY(-20px);
   }
-  
-  .hero-image {
-  
-    transition: transform 0.5s ease; 
-    animation: moveImage 10s ease-in-out infinite; 
+  50% {
+    transform: translateY(0);
   }
-  
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
 
   .card:hover {
     transform: translateY(-100px); 

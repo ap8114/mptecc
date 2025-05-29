@@ -58,14 +58,15 @@ const Home = () => {
       </div>
 
       {/* Right Image Section */}
-      <div className="col-lg-6 text-center" data-aos="fade-left">
-        <img
-          src="https://demo.epic-webdesign.com/tf-smart/v1/images/digital-marketing.png"
-          alt="Marketing Illustration"
-          className="img-fluid hero-image"
-          style={{ maxWidth: "90%", height: "auto" }}
-        />
-      </div>
+      {/* Right Image Section */}
+<div className="col-lg-6 text-center" data-aos="fade-left">
+  <img
+    src="https://demo.epic-webdesign.com/tf-smart/v1/images/digital-marketing.png"
+    alt="Marketing Illustration"
+    className="img-fluid hero-image"
+  />
+</div>
+
 
     </div>
   </div>
