@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ecomm from '../assets/services/ecomm.png'
-import ecomm2 from '../assets/services/ecomm2.png'
+import ecomm from '../assets/services/ecomm.png';
+import ecomm2 from '../assets/services/ecomm2.png';
 
 const ECommerceServices = () => {
   return (
@@ -25,9 +25,9 @@ const ECommerceServices = () => {
 
       {/* E-Commerce Content Start */}
       <div className="container bg-secondary p-0">
-        <div className="row g-0">
+        <div className="row g-0 align-items-center">
           {/* Left Section */}
-          <div className="col-lg-6 py-5 px-4">
+          <div className="col-lg-6 py-5 px-4 d-flex flex-column justify-content-center" style={{ minHeight: 450 }}>
             <h2 className="mb-3">
               Elevate Your <span style={{ color: "rgb(73, 153, 227)" }}>Online Store</span>
             </h2>
@@ -39,7 +39,7 @@ const ECommerceServices = () => {
             </p>
 
             {/* Services List */}
-            <div className="bg-secondary">
+            <div>
               <div className="d-flex flex-column justify-content-start">
                 {[
                   "Custom E-Commerce Website Development",
@@ -49,7 +49,12 @@ const ECommerceServices = () => {
                   "Mobile-Responsive Design",
                   "E-Commerce SEO & Analytics"
                 ].map((item, index) => (
-                  <a className="h5 mb-3" href="#" key={index}>
+                  <a
+                    className="h5 mb-3 text-decoration-none"
+                    href="#"
+                    key={index}
+                    style={{ color: "inherit" }}
+                  >
                     <i
                       className="bi bi-arrow-right me-2"
                       style={{ color: "rgb(73, 153, 227)" }}
@@ -60,22 +65,26 @@ const ECommerceServices = () => {
               </div>
             </div>
 
-            <img
-              className="img-fluid w-100 mt-4 rounded-4"
-              src={ecomm}
-              alt="ecommerce services"
-              style={{ height: 300, objectFit: "cover" }}
-            />
+            <div className="mt-4" style={{ maxWidth: "100%", overflow: "hidden", borderRadius: "16px" }}>
+              <img
+                className="img-fluid w-100"
+                src={ecomm}
+                alt="ecommerce services"
+                style={{ height: 300, objectFit: "cover", display: "block", width: "100%" }}
+              />
+            </div>
           </div>
 
           {/* Right Section */}
-          <div className="col-lg-6 py-5 px-4">
-            <img
-              className="img-fluid w-100 mb-5 rounded-4"
-              src={ecomm2}
-              alt="team discussing e-commerce strategy"
-              style={{ height: 400, objectFit: "cover" }}
-            />
+          <div className="col-lg-6 py-5 px-4 d-flex flex-column justify-content-center" style={{ minHeight: 450 }}>
+            <div style={{ maxWidth: "100%", overflow: "hidden", borderRadius: "16px", marginBottom: "1.5rem" }}>
+              <img
+                className="img-fluid w-100"
+                src={ecomm2}
+                alt="team discussing e-commerce strategy"
+                style={{ height: 300, objectFit: "cover", display: "block", width: "100%" }}
+              />
+            </div>
             <h4 className="mb-3" style={{ color: "rgb(73, 153, 227)" }}>
               Why Choose Us?
             </h4>

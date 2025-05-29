@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import webdesign from '../assets/services/webdesign.png'
-import webdesign1 from '../assets/services/webdesign1.png'
+import webdesign from '../assets/services/webdesign.png';
+import webdesign1 from '../assets/services/webdesign1.png';
 
 const WebDesignServices = () => {
   return (
     <>
       {/* Page Header Start */}
-      <div className="container-fluid py-5 bg-dark" >
+      <div className="container-fluid py-5 bg-dark">
         <div className="row">
           <div className="col-12 text-center">
             <h1 className="display-5 text-white mb-3">Web Designing</h1>
@@ -23,7 +23,7 @@ const WebDesignServices = () => {
 
       {/* Web Design Section Start */}
       <div className="container bg-secondary p-0">
-        <div className="row g-0">
+        <div className="row g-0 align-items-center">
           {/* Left Column */}
           <div className="col-lg-6 py-5 px-4">
             <h2 className="mb-3">
@@ -49,7 +49,7 @@ const WebDesignServices = () => {
                   "Custom WordPress Design",
                   "Website Redesign Services"
                 ].map((service, index) => (
-                  <a className="h5 mb-3" href="#" key={index}>
+                  <a className="h5 mb-3" href="#" key={index} style={{ textDecoration: 'none' }}>
                     <i
                       className="bi bi-arrow-right me-2"
                       style={{ color: "rgb(73, 153, 227)" }}
@@ -64,17 +64,25 @@ const WebDesignServices = () => {
               className="img-fluid w-100 mt-4 rounded-4"
               src={webdesign1}
               alt="Web design showcase"
-              style={{ height: 300, objectFit: "cover" }}
+              style={{
+                height: '350px',
+                objectFit: 'cover',
+                maxWidth: '100%',
+              }}
             />
           </div>
 
           {/* Right Column */}
           <div className="col-lg-6 py-5 px-4">
             <img
-              className="img-fluid w-100 mb-5 rounded-4"
+              className="img-fluid w-100 mb-4 rounded-4"
               src={webdesign}
               alt="Team designing websites"
-              style={{ height: 400, objectFit: "cover" }}
+              style={{
+                height: '350px',
+                objectFit: 'cover',
+                maxWidth: '100%',
+              }}
             />
             <h4 className="mb-3" style={{ color: "rgb(73, 153, 227)" }}>
               Why Our Design Works?
