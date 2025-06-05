@@ -55,45 +55,66 @@ const About = () => {
         <p className="lead text-muted">Meet our dedicated team of professionals</p>
     </div>
     <div className="row g-4">
-        <div className="col-md-4">
-            <div className="team-item position-relative overflow-hidden rounded-3 shadow-sm" style={{ height: "500px" }}>
-                <img className="img-fluid w-100 h-100 object-fit-cover" src="https://i.ibb.co/g6grtzz/team-1.jpg" alt="Hitesh Dube" />
-                <div className="team-text position-absolute w-100 text-center py-3 bg-dark bg-opacity-90 start-0 bottom-0 translate-y-100 transition-all">
-                    <h5 className="text-white mb-1">Hitesh Dube</h5>
-                    <p className="text-white-50 mb-0">Position</p>
-                    <div className="d-flex justify-content-center mt-2">
-                       
-                    </div>
-                </div>
-            </div>
+  <div className="col-md-4">
+    <div className="team-item position-relative overflow-hidden rounded-3 shadow-sm d-flex align-items-center justify-content-center bg-white" style={{ height: "350px" }}>
+      <img
+        className="img-fluid"
+        src="https://i.postimg.cc/wT7K1mfq/img2ws.jpg"
+        alt="Hitesh Dube"
+        style={{ maxHeight: "90%", maxWidth: "90%", objectFit: "contain" }}
+      />
+      <div className="team-text position-absolute w-100 text-center py-3 bg-dark bg-opacity-90 start-0 bottom-0 translate-y-100 transition-all">
+        <h5 className="text-white mb-1">🔹 Rupesh Pandagre</h5>
+        <p className="text-white-50 mb-0">Managing Director</p>
+        <div className="d-flex justify-content-center mt-2">
+          <span className="text-white-50 small">
+            Driving Operational Excellence in Digital Marketing&nbsp;&amp;&nbsp;IT&nbsp;Services
+          </span>
         </div>
-        <div className="col-md-4">
-            <div className="team-item position-relative overflow-hidden rounded-3 shadow-sm" style={{ height: "500px" }}>
-                <img className="img-fluid w-100 h-100 object-fit-cover" src="https://i.postimg.cc/bY3fwmMd/Whats-App-Image-2025-05-20-at-10-44-34-4d791e5e.jpg" />
-                <div className="team-text position-absolute w-100 text-center py-3 bg-dark bg-opacity-90 start-0 bottom-0 translate-y-100 transition-all">
-                    <h5 className="text-white mb-1">Lalit Singh Thakur</h5>
-                    <p className="text-white-50 mb-0">Chief Consultant</p>
-                    <div className="d-flex justify-content-center mt-2">
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="col-md-4">
-            <div className="team-item position-relative overflow-hidden rounded-3 shadow-sm" style={{ height: "500px" }}>
-                <img className="img-fluid w-100 h-100 object-fit-cover" src="https://i.ibb.co/34T90sC/team-3.jpg" alt="Rupesh Singh" />
-                <div className="team-text position-absolute w-100 text-center py-3 bg-dark bg-opacity-90 start-0 bottom-0 translate-y-100 transition-all">
-                    <h5 className="text-white mb-1">Rupesh Singh</h5>
-                    <p className="text-white-50 mb-0">Position</p>
-                    <div className="d-flex justify-content-center mt-2">
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
+  </div>
+  <div className="col-md-4">
+    <div className="team-item position-relative overflow-hidden rounded-3 shadow-sm d-flex align-items-center justify-content-center bg-white" style={{ height: "350px" }}>
+      <img
+        className="img-fluid"
+        src="https://i.postimg.cc/C1QBS8rZ/Whats-App-Image-2025-05-20-at-10-44-34-4d791e5e.jpg"
+        alt="Lalit Singh Thakur"
+        style={{ maxHeight: "90%", maxWidth: "90%", objectFit: "contain" }}
+      />
+      <div className="team-text position-absolute w-100 text-center py-3 bg-dark bg-opacity-90 start-0 bottom-0 translate-y-100 transition-all">
+        <h5 className="text-white mb-1">Lalit Singh Thakur</h5>
+        <p className="text-white-50 mb-0">Digital & IT Expert</p>
+        <div className="d-flex justify-content-center mt-2">
+          <span className="text-white-50 small">
+            Specialist in Digital Marketing, Tech Solutions &amp;&nbsp;Online&nbsp;Strategy
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="col-md-4">
+    <div className="team-item position-relative overflow-hidden rounded-3 shadow-sm d-flex align-items-center justify-content-center bg-white" style={{ height: "350px" }}>
+      <img
+        className="img-fluid"
+        src="https://i.ibb.co/34T90sC/team-3.jpg"
+        alt="Rupesh Pandagre"
+        style={{ maxHeight: "90%", maxWidth: "90%", objectFit: "contain" }}
+      />
+      <div className="team-text position-absolute w-100 text-center py-3 bg-dark bg-opacity-90 start-0 bottom-0 translate-y-100 transition-all">
+        <h5 className="text-white mb-1">🔹Hiten Dube</h5>
+        <p className="text-white-50 mb-0">Managing Director</p>
+        <div className="d-flex justify-content-center mt-2">
+          <span className="text-white-50 small">
+            Driving Operational Excellence in Digital Marketing &amp; IT Services
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-            {/* Team End */}
+    {/* Team End */}
+    </div>
         </>
     );
 };
